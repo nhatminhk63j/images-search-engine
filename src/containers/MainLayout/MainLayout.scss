@@ -1,0 +1,38 @@
+.mainLayoutContainer {
+  //display: none;
+  .topBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(17deg, rgba(2,0,36,1) 0%, rgba(68,217,247,1) 20%, rgba(199,82,222,1) 71%);
+    padding: 2vh;
+    .infoContainer {
+      display: flex;
+      flex-direction: row;
+      .logoContainer {
+        width: 120px;
+        min-height: 120px;
+      }
+      .logoContainer img {
+        max-width: 100%;
+        height: auto;
+      }
+      .textContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+
+  .topBarNone {
+    display: none;
+  }
+  .content {
+    height: 100vh;
+    //background-color: red;
+  }
+}

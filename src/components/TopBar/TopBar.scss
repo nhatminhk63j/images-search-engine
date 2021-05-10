@@ -1,0 +1,13 @@
+.topBarContainer {
+  //position: absolute;
+  //z-index: 200;
+  .appBar {
+    display: flex;
+    .menuIcon {
+
+    }
+    .title {
+      flex-grow: 1;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.searchContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  opacity: 0.5;
+  .input {
+    margin-left: 3%;
+    flex: 1;
+  }
+  .searchButton {
+    margin-right: 1%;
+  }
+}
